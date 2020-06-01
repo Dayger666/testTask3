@@ -93,21 +93,24 @@ body {
   .mainBlock__buttons {
     padding: 18px 35px 15px 18px;
     display: flex; }
-    .mainBlock__buttons button {
-      height: 34px;
-      font-size: 14px;
-      cursor: pointer;
-      background-color: #f2f2f2;
-      border: 1px solid #f2f2f2;
-      border-radius: 4px;
-      color: #5F6368;
-      margin: 11px 3px 11px 11px;
-      padding: 0px 16px 0 16px; }
-      .mainBlock__buttons button:hover {
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-        background-color: #f8f8f8;
-        border: 1px solid #c6c6c6;
-        color: #222; }
+  .mainBlock__button {
+    height: 34px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    margin: 11px 3px 11px 11px;
+    padding: 0 16px 0 16px; }
+    .mainBlock__button:hover {
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      background-color: #f8f8f8;
+      border: 1px solid #c6c6c6;
+      color: #222; }
+    .mainBlock__button:focus {
+      border: 1px solid #4d90fe;
+      outline: none; }
   .mainBlock__addition {
     font-size: small;
     line-height: 28px; }
