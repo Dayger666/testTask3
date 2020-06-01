@@ -160,5 +160,7 @@ body {
     .footer_i a:hover {
       color: #333;
       text-decoration: underline; }
+    .footer_i a:active {
+      color: #dd4b39; }
 
 /*# sourceMappingURL=style.css.map */
